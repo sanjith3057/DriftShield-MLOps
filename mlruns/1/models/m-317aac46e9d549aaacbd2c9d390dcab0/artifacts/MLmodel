@@ -1,0 +1,22 @@
+artifact_path: /content/drive/MyDrive/DriftShield-MLOps/mlruns/1/models/m-317aac46e9d549aaacbd2c9d390dcab0/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.12.12
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: ubj
+    xgb_version: 3.1.2
+mlflow_version: 3.7.0
+model_id: m-317aac46e9d549aaacbd2c9d390dcab0
+model_size_bytes: 204565
+model_uuid: m-317aac46e9d549aaacbd2c9d390dcab0
+prompts: null
+run_id: 774a8d43d794408c8a27b5dcb5ea5d0b
+utc_time_created: '2025-12-09 05:09:57.169543'

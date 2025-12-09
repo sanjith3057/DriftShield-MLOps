@@ -1,0 +1,10 @@
+feature,drift_score,p_value,test_type,has_drift,alert
+tenure,0.3,0.0077965481350298765,KS-Test,True,🚨 DRIFT
+age,0.35,0.0010233204789330112,KS-Test,True,🚨 DRIFT
+income,0.19166666666666668,0.207462628404663,KS-Test,True,🚨 DRIFT
+longmon,0.4166666666666667,3.992297151980345e-05,KS-Test,True,🚨 DRIFT
+tollmon,0.25,0.0427142404656968,KS-Test,True,🚨 DRIFT
+equipmon,0.325,0.002945694484504077,KS-Test,True,🚨 DRIFT
+internet,0.0,1.0,Chi-Square,False,✅ Stable
+ebill,0.0,1.0,Chi-Square,False,✅ Stable
+custcat,0.9381092654829181,0.06189073451708193,Chi-Square,True,🚨 DRIFT
