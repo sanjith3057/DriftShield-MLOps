@@ -1,51 +1,46 @@
-# DriftShield – Self-Healing MLOps Pipeline with Data Drift Detection & Auto-Retrain
-
+# DriftShield – Self-Healing MLOps Pipeline  
 **Live Demo (Permanent):** https://driftshield-mlops-53bhffscprpqt2jgqmi5d9.streamlit.app/  
 **GitHub:** https://github.com/sanjith3057/DriftShield-MLOps  
-**Built in 1 day • December 2025 • Fresher → MLOps Ready**
+**Built in <24 hours • December 2025**
 
-## What Happens When Your Model Breaks in Production?
-
-Most portfolios: “I trained a model. AUC 0.82. Done.”  
-**This one:** “Watch my model detect drift → auto-retrain itself → recover live.”
+When production data drifts → my model doesn’t die.  
+It detects → auto-retrains → promotes new version → recovers live.
 
 ### Live Demo Screenshots
 
-**Real-time monitoring dashboard (Streamlit)**  
-<img width="1918" height="988" alt="image" src="https://github.com/user-attachments/assets/7412af2a-ecbf-4f2d-8b93-a3aa66bce0a2" />
+**Real-time monitoring dashboard (auto-recovery in action)**  
+![Live Dashboard](https://github.com/user-attachments/assets/7412af2a-ecbf-4f2d-8b93-a3aa66bce0a2)
 
-
-**Custom drift detection (KS + Chi-Square) – 7/9 features drifted!**  
-(<img width="1268" height="875" alt="image" src="https://github.com/user-attachments/assets/52b46a7f-3b5d-4325-adfc-5f4530e634e2" />)
-
+**Custom drift detection (KS + Chi-Square) – 7/9 features drifted**  
+![Drift Detection](https://github.com/user-attachments/assets/52b46a7f-3b5d-4325-adfc-5f4530e634e2)
 
 **Exploratory Data Analysis (IBM Telecom Churn)**  
-<img width="1990" height="1432" alt="image" src="https://github.com/user-attachments/assets/a4ab3469-55a1-44cf-bf2c-959f6d11be3c" />
-
+![EDA Overview](https://github.com/user-attachments/assets/a4ab3469-55a1-44cf-bf2c-959f6d11be3c)
 
 **Feature Correlation Heatmap – What actually drives churn?**  
-<img width="1210" height="880" alt="image" src="https://github.com/user-attachments/assets/724db96a-3217-4395-8c28-8c900cc104e8" />
+![Correlation Heatmap](https://github.com/user-attachments/assets/724db96a-3217-4395-8c28-8c900cc104e8)
 
+### How It Works (End-to-End)
+1. XGBoost model trained → registered in MLflow (v1)
+2. Real-world drift injected (recession + price hikes)
+3. Custom statistical drift detector flags **0.308 overall drift**
+4. Drift > 0.1 → **auto-retrain triggers**
+5. New model trained on drifted data → promoted to **v4**
+6. Dashboard shows full recovery + balloons
 
-## How It Works (End-to-End)
+### Tech Stack
+Python • XGBoost • MLflow • Plotly • Streamlit • Custom KS/Chi² • Google Colab
 
-1. Trains XGBoost churn model on clean data → logs in MLflow
-2. Simulates real-world drift (recession, price hikes, forced bundles)
-3. **Custom drift detector** (no Evidently) flags **0.308 overall drift**
-4. When drift > 0.1 → **auto-retrain triggers**
-5. New model trained on drifted data → promoted to v4 in MLflow
-6. Live dashboard instantly shows recovery + balloons
+### Why This Gets You Hired
+- Full closed-loop MLOps (not just a notebook)
+- Production-grade monitoring + self-healing
+- Live, permanent deployment
+- Built & shipped in one day
 
-Tech: Python • XGBoost • MLflow • Plotly • Streamlit • Google Colab
+Fresher | December 2025 | Open to **Data Science / MLOps / ML Engineer** roles 2026  
+DMs open — let’s talk
 
-## Why Recruiters Stop Scrolling
+Made with love (and zero sleep) — Sanji3057e
 
-- No hand-wavy theory  
-- No Kaggle notebook  
-- Full production pipeline that **fixes itself**  
-- Deployed live in under 10 hours
-
-Open to **Data Scientist / MLOps Engineer / ML Engineer** roles 2026  
-Drop a comment or DM if you want this running in your stack
-
- by — Sanji3057e
+---
+⭐ Star if you want this kind of pipeline in production
