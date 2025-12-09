@@ -20,12 +20,12 @@ Most portfolios: “I trained a model. AUC 0.82. Done.”
 
 
 **Exploratory Data Analysis (IBM Telecom Churn)**  
-![EDA Overview](<img width="1990" height="1432" alt="image" src="https://github.com/user-attachments/assets/a4ab3469-55a1-44cf-bf2c-959f6d11be3c" />
-)
+![EDA Overview]<img width="1990" height="1432" alt="image" src="https://github.com/user-attachments/assets/a4ab3469-55a1-44cf-bf2c-959f6d11be3c" />
+
 
 **Feature Correlation Heatmap – What actually drives churn?**  
-![Correlation Matrix](<img width="1210" height="880" alt="image" src="https://github.com/user-attachments/assets/724db96a-3217-4395-8c28-8c900cc104e8" />
-)
+![Correlation Matrix]<img width="1210" height="880" alt="image" src="https://github.com/user-attachments/assets/724db96a-3217-4395-8c28-8c900cc104e8" />
+
 
 ## How It Works (End-to-End)
 
