@@ -16,15 +16,15 @@ Most portfolios: “I trained a model. AUC 0.82. Done.”
 
 
 **Custom drift detection (KS + Chi-Square) – 7/9 features drifted!**  
-![Drift Detection] (<img width="1268" height="875" alt="image" src="https://github.com/user-attachments/assets/52b46a7f-3b5d-4325-adfc-5f4530e634e2" />)
+(<img width="1268" height="875" alt="image" src="https://github.com/user-attachments/assets/52b46a7f-3b5d-4325-adfc-5f4530e634e2" />)
 
 
 **Exploratory Data Analysis (IBM Telecom Churn)**  
-![EDA Overview]<img width="1990" height="1432" alt="image" src="https://github.com/user-attachments/assets/a4ab3469-55a1-44cf-bf2c-959f6d11be3c" />
+<img width="1990" height="1432" alt="image" src="https://github.com/user-attachments/assets/a4ab3469-55a1-44cf-bf2c-959f6d11be3c" />
 
 
 **Feature Correlation Heatmap – What actually drives churn?**  
-![Correlation Matrix]<img width="1210" height="880" alt="image" src="https://github.com/user-attachments/assets/724db96a-3217-4395-8c28-8c900cc104e8" />
+<img width="1210" height="880" alt="image" src="https://github.com/user-attachments/assets/724db96a-3217-4395-8c28-8c900cc104e8" />
 
 
 ## How It Works (End-to-End)
